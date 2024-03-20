@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="view port" content=""width=device-width, initial-scale="1.8">
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d819e7db2c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!---<img src="images/logo.png" class="logo">--->
+                    <ul id="sidemenu">
+                        <li> <a href="#header">Home</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#services">Skills</a></li>
+                        <li> <a href="#portfolio">Projects</a></li>
+                        <li> <a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>
+                        FrontEnd Developer
+                    </p>
+                    <h1>Hi, I'm <span>Kathirvel</span><br> From Coimbatore</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.JPG" >
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2><br>
+                        <p>Aspiring IT fresher with a keen interest indevelopment, eager to leverage adaptability and technical skills.Dedicated to contributing innovative solutions while continually enhancing abilities in a dynamic environment.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                            <p class="tab-links " onclick="opentab('experience')">Certifications</p>
+                            <p class="tab-links " onclick="opentab('Intern')">Internship</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Problem solving</span><br>solving an problems in many platforms</li>
+                                <li><span>Web Developmennt</span><br>Web app Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents  " id="education">
+                            <ul>
+                                <li><span>Karpagam college of Engineering(2021-Present)</span><br>B.E.Electronics and Telecommunication<br>CGPA-7.82%(Upto 5th semester)</li>
+                                <li><span>Raja National Mat hr.Sec School(2019-2021)</span><br>HSC  - 85.5%<br>SSLC - 74.2%</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>NPTEL</span><br>1.Data Structures and Algorithms using Java(Elite)<br>2.Effective Writing</li>
+                                <li><span>Hackerrank</span><br>1.Problem Solving(basics)<br>2.(basics)</li> 
+                               <!-- <a href="https://www.hackerrank.com/profile/kathirvelarsel"><h4>learn more</h4></a>-->
+                                <li><span>SoloLearn</span><br>1.Basics of Java</li>
+                                <li><span>Coursera</span><br>1.Introduction to frontEnd Developmennt</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="Intern">
+                            <ul>
+                                <li><span>GATEWAY SOLUTION</span><br>Introduction to FrontEnd Development:</li>
+                                <p>Embarked on my journey in front-end development through an intensive internship, gaining hands-on experience with HTML, CSS, and JavaScript. Developed responsive and visually appealing web
+interfaces, honing skills in UI/UX design principles and front-end frameworks.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming</h2>
+                <li>Java</li>
+                <li>C</li>
+                <li>Data Structures and Algorithms</li>
+                <a href="https://leetcode.com/kathirvelarsel/" target="blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>FrontEnd</h2>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <!---<a href="#">Learn more</a>--->
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>SoftSkills</h2>
+                <li>Prioritization</li>
+                <li>Gratitude</li>
+                <!---<a href="#">Learn more</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+ <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-2.png" >
+            <div class="layer">
+                <h3>Music player using javaFX</h3>
+                <p>Developed a JavaFX MP3 player application, showcasing proficiency in Java programming and GUI development. Implemented features for audio playback, playlist management, and user-friendly interface design.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-1.png" >
+            <div class="layer">
+                <h3>Cricket Team Management</h3>
+                <p>Developed a Java application for cricket team management, including player and team details management with JDBC connectivity for data retrieval. Integrated features for streamlined team and player data</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png" >
+            <div class="layer">
+                <h3>Theft alarm using 8085 Microcontroller</h3>
+                <p>Implemented a theft alarm system utilizing the 8051 microcontroller, integrating sensors for intrusion detection. Employed assembly language programming to design real-time monitoring and alarm triggering mechanisms</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+    </div>
+    <a href="https://github.com/Kathirvel1416" class="btn" target="blank"><i class="fa-brands fa-square-github"></i> See More</a>
+ </div>
+</div>
+<!-----contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>Kathirvelarsel@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9600914424</p>
+            <div class="social-icons">
+                <a href="https://github.com/Kathirvel1416" target="blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/kathirvel-a-135b5424a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+               <!--- <a href="https://www.facebook.com/profile.php?id=100009120214374&mibextid=ZbWKwL "><i class="fa-brands fa-facebook"></i></a>-->
+                <a href="https://www.instagram.com/_falle_n_dreamer_?igsh=MTQ2ejA0c2dsbmhhcQ==
+" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/kathir1447?t=wboDW1V97A7rpBQDUBvNGw&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+            </div>
+            <a href="images/KATHIRVEL-A-FlowCV-Resume-20240305 (1).pdf" download class="btn btn2" target="blank">Download CV</a>
+        </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copy right @ kathir<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname)
+            {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyUKVYvdrCU-J9N5LF0VE_2O4vz_DXj_PkH0RbAnNf-GO-yBADnSu6Y6q5ClqwhMsgimQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+          const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
